@@ -10,10 +10,10 @@ This repository contains Terraform code for deploying a serverless infrastructur
    - Download the zip file from the repository.
 
 2. **Unzip:**
-   - Unzip the downloaded file to access the Terraform code.
+   - Unzip the downloaded file to access the serverless code.
 
 3. **Directory Name:**
-   - Ensure that the name of the directory extracted from the zip file is **"serverless"**. This is crucial for proper configuration and execution.
+   - Ensure that the name of the directory extracted from the zip file is **"serverless"**. This is crucial for proper configuration and execution. Copy this directory in the root location of terraform code.
 
 4. **Terraform Execution:**
    - Run the Terraform code as provided in the repository.
