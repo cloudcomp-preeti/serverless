@@ -39,7 +39,7 @@ functions.cloudEvent('helloPubSub', async cloudEvent => {
     const expDttm = Date.now() + (2 * 60 * 1000);
 
     await knex('users').where('id', userId).update({ expiration_dttm: expDttm });
-    const verificationLink = `http://preetikulk.me:3000/verify?token=${encodeURIComponent(userId)}`;
+    const verificationLink = `https://preetikulk.me/verify?token=${encodeURIComponent(userId)}`;
     const emailBody = `Click the following link to verify your email: ${verificationLink}`;
     console.log('Email Body:', emailBody);
 
